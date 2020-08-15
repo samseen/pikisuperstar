@@ -17,6 +17,7 @@ html, body{
     --Lato-Bold: 'Lato-Bold', cursive;
     --Lato-Semibold: 'Lato-Semibold', cursive;
     --Lato-Medium: 'Lato-Medium', cursive;
+    --Lato-Black: 'Lato-Black', cursive;
 }
 
 /* Global classes */
@@ -106,4 +107,29 @@ header {
     background: url('../img/1x/site-bg.png') no-repeat;
     background-size: 100% 100%;
     height: 110vh;
+}
+
+.header-content {
+    padding: 0 2rem;
+}
+
+.header-content h1 {
+    color: var(--text-blue);
+    font-size: 4.5rem;
+    font-family: var(--Lato-Black);
+    margin-bottom: 0rem;
+}
+
+.header-content p.subtitle {
+    color: var(--mild-blue);
+    font-family: var(--Lato-Black);
+    font-size: 2rem;
+}
+
+.header-content .sub-text {
+    max-width: 25%;
+    font-family: var(--Lato-Semibold);
+    color: var(--mild-blue);
+    font-size: .9rem;
+    line-height: 1.4rem;
 }
