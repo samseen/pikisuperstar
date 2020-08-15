@@ -132,4 +132,20 @@ header {
     color: var(--mild-blue);
     font-size: .9rem;
     line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.header-content a.btn {
+    font-family: var(--Lato-Medium);
+    background: var(--mild-blue);
+    border-radius: 3rem;
+    padding: .6rem 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.header-content .social-buttons {
+    display: flex;
+    flex-direction: row;
+    
 }
