@@ -1,0 +1,24 @@
+
+/* Font Family - Lato Regular */
+@font-face{
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+
+/* Font Family - Lato Medium */
+@font-face {
+    font-family: Lato-Medium;
+    src: url('../fonts/Lato/Lato-Medium.ttf');
+}
+
+/* Font Family - Lato Semibold */
+@font-face{
+    font-family: Lato-Semibold;
+    src: url('../fonts/Lato/Lato-Semibold.ttf');
+}
+
+/* Font Family - Lato Bold */
+@font-face{
+    font-family: Lato-Bold;
+    src: url('../fonts/Lato/Lato-Bold.ttf');
+}

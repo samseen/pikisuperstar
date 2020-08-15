@@ -1,0 +1,109 @@
+
+@import url('../css/fonts.css');
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    /* theme colors */
+    --text-blue: #283E71;
+    --mild-blue: #2CA5C6;
+
+    /* theme font-family */
+    --Lato-Regular: 'Lato-Regular', cursive;
+    --Lato-Bold: 'Lato-Bold', cursive;
+    --Lato-Semibold: 'Lato-Semibold', cursive;
+    --Lato-Medium: 'Lato-Medium', cursive;
+}
+
+/* Global classes */
+
+a{
+    text-decoration: none;
+    color: var(--text-blue);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1 {
+    font-family: var(--Lato-Bold);
+}
+
+h2 {
+    font-family: var(--Lato-Semibold);
+}
+
+h3 {
+    font-family: var(--Lato-Regular);
+    font-size: 1.3rem;
+}
+
+.navbar {
+    padding: 0 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+nav ul li a, nav a {
+    font-family: var(--Lato-Medium);
+    cursor: pointer;
+    color: var(--mild-blue);
+    font-size: 1.2rem;
+}
+
+nav .start {
+    background: var(--text-blue);
+    color: white;
+    padding: .8rem 1.2rem;
+    border-radius: 3rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-blue {
+    color: var(--text-blue);
+}
+
+.mild-blue {
+    color: var(--mild-blue);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 25px;
+}
+
+header {
+    background: url('../img/1x/site-bg.png') no-repeat;
+    background-size: 100% 100%;
+    height: 110vh;
+}
