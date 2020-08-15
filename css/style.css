@@ -147,5 +147,7 @@ header {
 .header-content .social-buttons {
     display: flex;
     flex-direction: row;
-    
+    padding-top: 3rem;
+    width: 15%;
+    justify-content: space-between;
 }
